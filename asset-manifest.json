@@ -1,0 +1,20 @@
+{
+  "files": {
+    "main.css": "/Simons-game/static/css/main.ecb13d55.css",
+    "main.js": "/Simons-game/static/js/main.c8de9d85.js",
+    "static/js/787.123358da.chunk.js": "/Simons-game/static/js/787.123358da.chunk.js",
+    "static/media/green.mp3": "/Simons-game/static/media/green.bb7cfbf2f804efc7cc38.mp3",
+    "static/media/red.mp3": "/Simons-game/static/media/red.cda1b21ae7cfb8bc5f8b.mp3",
+    "static/media/yellow.mp3": "/Simons-game/static/media/yellow.ea398e3ee263b328f564.mp3",
+    "static/media/wrong.mp3": "/Simons-game/static/media/wrong.09270cc34fb672dfee40.mp3",
+    "static/media/blue.mp3": "/Simons-game/static/media/blue.0407f8865464d427dc9a.mp3",
+    "index.html": "/Simons-game/index.html",
+    "main.ecb13d55.css.map": "/Simons-game/static/css/main.ecb13d55.css.map",
+    "main.c8de9d85.js.map": "/Simons-game/static/js/main.c8de9d85.js.map",
+    "787.123358da.chunk.js.map": "/Simons-game/static/js/787.123358da.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.ecb13d55.css",
+    "static/js/main.c8de9d85.js"
+  ]
+}
