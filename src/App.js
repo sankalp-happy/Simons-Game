@@ -70,14 +70,18 @@ function App() {
         setGame(false);
         setLevel(-1);
         setGameSeq([])
+        document.body.classList.add("game-over");
+        setTimeout(function(){
+            document.body.classList.remove("game-over");
+        }, 200);
     }
 
     return(
         <>
             <Heading click = {headingClick} level = {level} />
             <div className='container'>
-                <Buttons color1 = {color[0]} color2 = {color[1]} onclick = {butClick} />
-                <Buttons color1 = {color[2]} color2 = {color[3]} onclick = {butClick} />
+                <Buttons color1 = {color[0]} color2 = {color[1]} onclick = {game?butClick:()=>alert("Click the text to start the game.")} />
+                <Buttons color1 = {color[2]} color2 = {color[3]} onclick = {game?butClick:()=>alert("Click the text to start the game.")} />
             </div>
         </>
     )
